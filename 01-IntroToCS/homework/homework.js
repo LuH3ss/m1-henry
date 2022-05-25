@@ -14,6 +14,17 @@ for(let i = 0; i < num.length; i++){
 function DecimalABinario(num) {
   // tu codigo aca
 return num.toString(2);
+
+/*
+
+let str = "";
+while(num > 0) {
+  let resto = num % 2;
+  str = resto + str;
+  num = Math.floor(num/2)
+}
+return str;
+*/
   
 }
 
